@@ -1,3 +1,8 @@
+h4{
+     font-family: 'Helvetica';
+     color: #424242;
+} 
+
 nav{
      background-color: #01395C !important;
      height: 90px;
@@ -16,10 +21,6 @@ nav{
      padding: 0 0 2% 3%;
 }
 
-.dados{
-     text-align: center;
-}
-
 .convite i{
      font-size: 30px;
      vertical-align: middle;
@@ -32,17 +33,25 @@ nav{
      padding: 0 1%;
 }
 
+.dados{
+     text-align: center;
+}
 
+@media screen and (max-width: 600px) {
+     .mapa{
+          /* block-size: 100vh; */
+          max-height: 30vh;
+          max-width: 100%;
+     }
 
+     h2{
+          font-size: 35px;
+     }
 
-
-
-
-
-
-
-
-
+     h4{
+          font-size: 25px;
+     }
+}
 
 .localizacao{
      background-color: #e0e0e0;
