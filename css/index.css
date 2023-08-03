@@ -14,10 +14,11 @@ nav{
 } 
 
 .convite{
+     background-color: #fafafa;
      padding: 2% 0;
 }
 
-.convite h2, .localizacao h2{
+.convite h2, .localizacao h2, .sinais h2{
      padding: 0 0 2% 3%;
 }
 
@@ -53,9 +54,29 @@ nav{
      }
 }
 
-.localizacao{
-     background-color: #e0e0e0;
+.sinais{
+     background-color: #2D3748;
      padding: 2% 0;
+     border-top: 3px solid #ffa726;
+}
+
+.mensagem{
+     background-color: #01395C;
+     color: #ffffff;
+     font-family: 'Gill Sans', 'Gill Sans MT';
+     font-weight: bold !important;
+     text-shadow: 3px 3px 3px black !important;
+     padding: 3% 0;
+     border-top: 3px solid #BB1626;
+}
+
+.localizacao{
+     background-color: #eeeeee;
+     padding: 2% 0;
+}
+
+.sinais h2{
+     color: #ffffff;
 }
 
 footer{
@@ -80,5 +101,5 @@ footer i{
 }
 
 .footer-copyright{
-     background-color: #424242 !important;
+     background-color: #000000 !important;
 }
