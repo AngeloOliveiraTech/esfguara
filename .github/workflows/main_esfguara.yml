@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'esfguara'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BEAFB35D5EAA4DDAB56ED30224C847F4 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BF87519429DE4F49AAC6F370565BFC5F }}
           package: .
